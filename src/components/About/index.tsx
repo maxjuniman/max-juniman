@@ -28,7 +28,7 @@ export function About() {
             criar experiências web e mobile de alta qualidade.
           </p>
           <p>
-            Minha trajetória inclui passagens por empresas como <strong>FISERV</strong>,{' '}
+            Minha trajetória inclui passagens por empresas como <strong>Fiserv</strong>,{' '}
             <strong>Grecale</strong> e <strong>Firedev</strong>, onde desenvolvi habilidades em
             TDD, microsserviços com Single SPA, publicação de apps em iOS/Android e
             gerenciamento de versão com Git e Mercurial.

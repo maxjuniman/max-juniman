@@ -199,6 +199,10 @@ export const CodeBlock = styled.div`
   max-width: 460px;
   animation: ${float} 6s ease-in-out infinite;
   box-shadow: ${({ theme }) => theme.shadows.lg};
+  
+  @media (max-width: ${({ theme }) => theme.breakpoints.lg}) {
+    text-align: left;
+  }
 `;
 
 export const CodeLine = styled.div`

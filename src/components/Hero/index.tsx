@@ -70,7 +70,7 @@ export function Hero() {
             role: <CodeString>"{personalInfo.role}"</CodeString>,
           </CodeLine>
           <CodeLine style={{ paddingLeft: '1.5rem' }}>
-            stack: [<CodeString>"React"</CodeString>, <CodeString>"TypeScript"</CodeString>, <CodeString>"Next.js"</CodeString>],
+            stack: [<CodeString>"React"</CodeString>, <CodeString>"React Native"</CodeString>, <CodeString>"TypeScript"</CodeString>, <CodeString>"Javascript"</CodeString>, <CodeString>"Next.js"</CodeString>, <CodeString>"Expo"</CodeString>, <CodeString>"PHP"</CodeString>, <CodeString>"Laravel"</CodeString>],
           </CodeLine>
           <CodeLine style={{ paddingLeft: '1.5rem' }}>
             available: <CodeKeyword>true</CodeKeyword>,

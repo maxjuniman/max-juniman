@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub, FaEnvelope, FaHeart } from 'react-icons/fa';
 import { personalInfo } from '../../data/resume';
+import { VisitorCounter } from '../VisitorCounter';
 import {
   FooterWrapper,
   FooterContainer,
@@ -12,6 +13,7 @@ import {
   FooterBottom,
   FooterCopyright,
   FooterMadeWith,
+  FooterMiddle,
 } from './styles';
 
 export function Footer() {
@@ -57,6 +59,10 @@ export function Footer() {
             </SocialLink>
           </SocialLinks>
         </FooterTop>
+
+        <FooterMiddle>
+          <VisitorCounter />
+        </FooterMiddle>
 
         <FooterBottom>
           <FooterCopyright>

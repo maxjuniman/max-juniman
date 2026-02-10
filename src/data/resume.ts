@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: 'Max Juniman Batistel',
   role: 'Desenvolvedor Front-end',
-  age: 36,
+  age: 37,
   maritalStatus: 'Casado',
   children: '2 filhos',
   address: 'Rua Juracy Pontes Carpes, Nº 170',
@@ -139,7 +139,7 @@ export const hardSkills = [
   { name: 'TypeScript', level: 90 },
   { name: 'JavaScript', level: 95 },
   { name: 'Next.js', level: 85 },
-  { name: 'React Native', level: 80 },
+  { name: 'React Native', level: 90 },
   { name: 'HTML & CSS', level: 95 },
   { name: 'Node.js', level: 70 },
   { name: 'Python', level: 60 },

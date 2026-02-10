@@ -85,6 +85,13 @@ export const SocialLink = styled.a`
   }
 `;
 
+export const FooterMiddle = styled.div`
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.border};
+`;
+
 export const FooterBottom = styled.div`
   display: flex;
   align-items: center;
