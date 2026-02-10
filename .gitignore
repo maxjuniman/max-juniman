@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.rsbuild/
+*.local
+.env
+.env.*
+.DS_Store
+Thumbs.db

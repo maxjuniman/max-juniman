@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "rsbuild dev",
-    "build": "rsbuild build",
+    "build": "node ./node_modules/@rsbuild/core/bin/rsbuild.js build",
     "preview": "rsbuild preview"
   },
   "dependencies": {
@@ -13,11 +13,11 @@
     "react-router-dom": "^7.1.0",
     "styled-components": "^6.1.0",
     "react-aria-components": "^1.6.0",
-    "react-icons": "^5.4.0"
+    "react-icons": "^5.4.0",
+    "@rsbuild/core": "^1.2.0",
+    "@rsbuild/plugin-react": "^1.1.0"
   },
   "devDependencies": {
-    "@rsbuild/core": "^1.2.0",
-    "@rsbuild/plugin-react": "^1.1.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "typescript": "^5.7.0"
