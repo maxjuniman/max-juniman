@@ -2,6 +2,7 @@
   "name": "portfolio-max-juniman",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "rsbuild dev",
     "build": "node ./node_modules/@rsbuild/core/bin/rsbuild.js build",
