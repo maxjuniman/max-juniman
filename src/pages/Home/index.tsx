@@ -4,6 +4,7 @@ import { Skills } from '../../components/Skills';
 import { Experience } from '../../components/Experience';
 import { Education } from '../../components/Education';
 import { Contact } from '../../components/Contact';
+import { Comments } from '../../components/Comments';
 
 export function HomePage() {
   return (
@@ -14,6 +15,7 @@ export function HomePage() {
       <Experience />
       <Education />
       <Contact />
+      <Comments />
     </main>
   );
 }
