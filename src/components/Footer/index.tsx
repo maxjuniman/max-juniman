@@ -52,6 +52,14 @@ export function Footer() {
               <FaLinkedin />
             </SocialLink>
             <SocialLink
+              href={personalInfo.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <FaGithub />
+            </SocialLink>
+            <SocialLink
               href={`mailto:${personalInfo.email}`}
               aria-label="E-mail"
             >

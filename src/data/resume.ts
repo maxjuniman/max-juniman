@@ -12,7 +12,8 @@ export const personalInfo = {
   email: 'maxjuniman@hotmail.com',
   linkedin: 'https://www.linkedin.com/in/max-juniman',
   linkedinLabel: '/in/max-juniman',
-  github: 'https://github.com/max-juniman',
+  github: 'https://github.com/maxjuniman',
+  githubLabel: '/max-juniman',
   availability: 'Disponibilidade para viagens',
   summary:
     'Sólida experiência com Suporte Técnico, troubleshooting de erros em fluxos de sistemas. Desenvolvimento em React Js, React Native, JavaScript, TypeScript, NextJs, Expo e Laravel. Experiência com Windows, AWS e Linux Server. Experiência com fluxo de publicação de aplicativos nas plataformas iOS e Android. Facilidade de comunicação com o cliente (interno e externo).',

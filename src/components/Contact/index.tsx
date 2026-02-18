@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import { FaWhatsapp, FaLinkedin, FaGithub, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 import { personalInfo } from '../../data/resume';
 import {
   ContactSection,
@@ -46,6 +46,13 @@ export function Contact() {
             >
               <FaLinkedin /> Conectar no LinkedIn
             </SecondaryLink>
+            <SecondaryLink
+              href={personalInfo.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub /> Conectar no GitHub
+            </SecondaryLink>
           </ContactActions>
         </ContactInfo>
 
@@ -90,6 +97,19 @@ export function Contact() {
               rel="noopener noreferrer"
             >
               {personalInfo.linkedinLabel}
+            </ContactCardValue>
+          </ContactCard>
+
+          <ContactCard>
+            <ContactCardIcon><FaGithub /></ContactCardIcon>
+            <ContactCardLabel>GitHub</ContactCardLabel>
+            <ContactCardValue
+              as="a"
+              href={personalInfo.github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {personalInfo.githubLabel}
             </ContactCardValue>
           </ContactCard>
         </ContactCards>

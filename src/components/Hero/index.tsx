@@ -1,4 +1,4 @@
-import { FaLinkedin, FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from 'react-icons/fa';
 import { personalInfo } from '../../data/resume';
 import {
   HeroSection,
@@ -44,6 +44,13 @@ export function Hero() {
           >
             <FaLinkedin /> Conectar no LinkedIn
           </PrimaryButton>
+          <SecondaryButton
+            href={personalInfo.github}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub /> GitHub
+          </SecondaryButton>
           <SecondaryButton
             href={`https://wa.me/5551993112125`}
             target="_blank"
